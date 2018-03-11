@@ -27,5 +27,5 @@ var doWhileLoop=function(array){
   do {
     array.pop();
   } while (maybeTrue()&&array.length>0);
-  return ar;
+  return array;
 };
