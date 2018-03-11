@@ -25,7 +25,7 @@ var doWhileLoop=function(ar){
   return Math.random() >= 0.5;
 }
   do {
-    console.log('some crap');
+    ar.pop();
   } while (maybeTrue()&&array.length>0);
   return ar;
 };
