@@ -20,12 +20,12 @@ var whileLoop=function(number){
 
 
 
-var doWhileLoop=function(ar){
+var doWhileLoop=function(array){
   function maybeTrue() {
   return Math.random() >= 0.5;
 }
   do {
-    ar.pop();
+    array.pop();
   } while (maybeTrue()&&array.length>0);
   return ar;
 };
