@@ -9,4 +9,10 @@ var forLoop=function(ar){
   return ar;
 };
 
-var whileLoop
+var whileLoop=function(number){
+  let count=number;
+  while(count>0){
+    console.log(count);
+    count-=1;
+  }
+}
