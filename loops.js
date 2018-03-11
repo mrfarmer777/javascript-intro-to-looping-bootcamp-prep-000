@@ -15,4 +15,5 @@ var whileLoop=function(number){
     console.log(count);
     count-=1;
   }
+  return 'done';
 }
