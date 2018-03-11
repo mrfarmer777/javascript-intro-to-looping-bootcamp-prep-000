@@ -1,4 +1,4 @@
-var forLoop =function(ar){
+var forLoop=function(ar){
   for(let i = 0;i<25;i++){
     if(i===1){
       ar.push("I am ${i} strange loop.");
@@ -6,4 +6,5 @@ var forLoop =function(ar){
       ar.push('I am ${i} string loops.');
     }
   }
-}
+  return ar;
+};
