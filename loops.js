@@ -16,4 +16,8 @@ var whileLoop=function(number){
     count-=1;
   }
   return 'done';
+};
+
+var doWhileLoop=function(ar){
+  
 }
