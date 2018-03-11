@@ -18,6 +18,10 @@ var whileLoop=function(number){
   return 'done';
 };
 
+function maybeTrue() {
+  return Math.random() >= 0.5;
+};
+
 var doWhileLoop=function(ar){
   
 }
